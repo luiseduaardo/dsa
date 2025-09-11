@@ -3,14 +3,15 @@ using namespace std;
 
 int main() {
 
-    int n = 0;
+    int cont = 0;
+    while (cont < 1000) {
+        cout << cont << endl;
+        cont++;
 
-    while(n < 10) {
-        cout << n << "\n";
-        cin >> n;
+        if (cont == 500) {
+            break;
+        }
     }
-
-    cout << "\nRotina finalizada\n";
 
     return 0;
 }

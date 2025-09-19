@@ -15,7 +15,7 @@ int main() {
     int B[n][p];
     int C[m][p];
 
-    cout << "Matriz A:\n";
+    cout << "\nMatriz A (" << m << "x" << p << "):\n";
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             A[i][j] = rand() % 10;
@@ -24,7 +24,7 @@ int main() {
         cout << "\n";
     }
 
-    cout << "\nMatriz B:\n";
+    cout << "\nMatriz B (" << n << "x" << p << "):\n";
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < p; j++) {
             B[i][j] = rand() % 10;
@@ -33,7 +33,7 @@ int main() {
         cout << "\n";
     }
 
-    cout << "\nMatriz C:\n";
+    cout << "\nMatriz C (" << m << "x" << p << "):\n";
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < p; j++) {
             C[i][j] = 0;

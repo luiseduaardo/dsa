@@ -1,5 +1,5 @@
-#ifndef AVIAO_H_INCLUDED
-#define AVIAO_H_INCLUDED
+#ifndef AULA45_H_INCLUDED
+#define AULA45_H_INCLUDED
 
 class Aviao {
     public:

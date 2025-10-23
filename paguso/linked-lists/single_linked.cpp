@@ -102,10 +102,9 @@ Node* listNew() {
     return head;
 }
 
-int main() {
-
+int main(int argc, char** argv) {
     Node* head = listNew();
-    int size = 0;
+    int size = stoi(argv[1]);
 
     for (int v = 0; v < 50; v+=10) {
         listInsert(head, size, v);

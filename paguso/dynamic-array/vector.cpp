@@ -20,7 +20,7 @@ public:
         return sz;
     }
 
-    int operator[](size_t pos) {
+    int& operator[](size_t pos) {
         return arr[pos];
     }
 
